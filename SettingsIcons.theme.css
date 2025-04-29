@@ -9,3 +9,7 @@
 */
 
 @import url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/main/SettingsIcons.css");
+
+:root {
+  --ssiSize: 18px;
+}
