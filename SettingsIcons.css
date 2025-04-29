@@ -1,0 +1,214 @@
+[class*="item_b3f026"][class*="themed_b3f026"][role="tab"] {
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+
+    &:not(:has([class*="premiumLabel_e681d1"], [class*="tabBarItemContainer_c7e907"]))::before {
+        content: "";
+        width: var(--ssiSize);
+        height: var(--ssiSize);
+        margin-right: calc(var(--ssiSize) / 3);
+        background: currentColor;
+        mask: url();
+    }
+
+    & :is([class*="premiumLabel_e681d1"],
+        [class*="tabBarItemContainer_c7e907"]) {
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: calc(var(--ssiSize) / 3);
+
+        & svg {
+            width: var(--ssiSize);
+            height: var(--ssiSize);
+        }
+    }
+
+    &[data-tab-id="My Account"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/account.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Profile Customization"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Content & Social"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/social.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Data & Privacy"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/privacy.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Family Center"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/family.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Authorized Apps"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/permissions.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Sessions"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/devices.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Connections"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/connections.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Settings Clips"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/clips.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Nitro Server Boost"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/boost.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Subscriptions"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/subscriptions.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Library Inventory"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/gift.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Billing"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/billing.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Appearance"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/appearance.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Accessibility"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/accessibility.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Voice & Video"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/microphone.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Text & Images"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/chat.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Notifications"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notifications.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Keybinds"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/keyboard.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Language"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/translate.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Streamer Mode"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/stream.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Advanced"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/advanced.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Activity Privacy"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/activity.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="changelog"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notebook.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="merchandise"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/shop.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Hypesquad Online"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hypesquad.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="VencordSettings"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="VencordPlugins"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/plugins.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="VencordThemes"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/theme.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="VencordUpdater"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/update.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="VencordCloud"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/cloud.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="VencordSettingsSync"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/backup.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Vesktop"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/settings.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Experiments"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/experiments.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Developer Options"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/developer.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Hotspot Options"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hotspot.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Dismissible Content Options"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Payment Flow Modals"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Revenue Storybook"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Virtual Currency Configuration"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Design System"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Text Playground"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Text Component"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Intl Testing"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Profile Effects Preview Tool"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Nameplates Preview Tool"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Web Setting Tree Tool"]::before {
+        mask: url() center/contain no-repeat !important;
+    }
+}
