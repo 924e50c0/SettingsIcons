@@ -6,7 +6,7 @@ You will need the [ThemeAttributes](https://github.com/Vendicated/Vencord/tree/m
 ## Installation
 ### Local
 
-1. Download [SettingsIcons.theme.css](https://github.com/924e50c0/SettingsIcons/releases/download/v1.0.0/SettingsIcons.theme.css).
+1. Download [SettingsIcons.theme.css](https://github.com/924e50c0/SettingsIcons/releases/download/v0.0.1/SettingsIcons.theme.css).
 
 2. Place the file in the themes folder:
 
