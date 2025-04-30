@@ -211,4 +211,77 @@
     &[data-tab-id="Web Setting Tree Tool"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/web.svg") center/contain no-repeat !important;
     }
+
+    /* server options */
+    &[data-tab-id="PROFILE"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="ENGAGEMENT"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/chart.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="BOOST_PERKS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/boost.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="EMOJI"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/emoji.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="STICKERS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/sticker.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="SOUNDBOARD"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/sound.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="MEMBERS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/members.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="ROLES"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/flag.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="INVITES"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/letter.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="ACCESS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/access.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="INTEGRATIONS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/connections.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="APP_DIRECTORY"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/explore.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="MODERATION"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/shield.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="AUDIT_LOG"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notebook.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="BANS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hammer.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="GUILD_AUTOMOD"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/broom.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="COMMUNITY"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/community.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="GUILD_TEMPLATES"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/wireframe.svg") center/contain no-repeat !important;
+    }
 }

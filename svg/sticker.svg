@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 25 25"
+   width="25"
+   height="25"
+   preserveAspectRatio="xMidYMid"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="sticker_alt.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="31.32"
+     inkscape:cx="12.484036"
+     inkscape:cy="12.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs17">
+    <clipPath
+       id="__lottie_element_1140">
+      <rect
+         width="24"
+         height="24"
+         x="0"
+         y="0"
+         id="rect1" />
+    </clipPath>
+    <clipPath
+       id="__lottie_element_1142">
+      <path
+         d="M 0,0 H 600 V 600 H 0 Z"
+         id="path1" />
+    </clipPath>
+    <g
+       id="__lottie_element_1147">
+      <g
+         style="display:none"
+         id="g3">
+        <g
+           id="g2">
+          <path
+             id="path2"
+             d="" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="__lottie_element_1157">
+      <g
+         clip-path="url(#__lottie_element_1158)"
+         opacity="1"
+         style="display:block"
+         id="g14">
+        <g
+           style="display:none"
+           id="g5">
+          <g
+             id="g4">
+            <path
+               id="path3"
+               d="" />
+          </g>
+        </g>
+        <g
+           style="display:none"
+           id="g7">
+          <g
+             id="g6">
+            <path
+               id="path5"
+               d="" />
+          </g>
+        </g>
+        <g
+           style="display:none"
+           id="g9">
+          <g
+             id="g8">
+            <path
+               stroke-linecap="round"
+               stroke-linejoin="miter"
+               fill-opacity="0"
+               stroke-miterlimit="4"
+               id="path7"
+               d="" />
+          </g>
+        </g>
+        <g
+           style="display:none"
+           id="g11">
+          <g
+             id="g10">
+            <path
+               stroke-linecap="butt"
+               stroke-linejoin="miter"
+               fill-opacity="0"
+               stroke-miterlimit="4"
+               id="path9"
+               d="" />
+          </g>
+        </g>
+        <g
+           clip-path="url(#__lottie_element_1164)"
+           style="display:none"
+           id="g13">
+          <g
+             id="g12">
+            <path
+               id="path11"
+               d="" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <clipPath
+       id="__lottie_element_1158">
+      <path
+         d="M 0,0 H 600 V 600 H 0 Z"
+         id="path14" />
+    </clipPath>
+    <clipPath
+       id="__lottie_element_1164">
+      <path
+         fill="#ffffff"
+         clip-rule="nonzero"
+         id="path15"
+         d="" />
+      <path
+         fill="#ffffff"
+         clip-rule="nonzero"
+         id="path16"
+         d="" />
+    </clipPath>
+    <filter
+       id="__lottie_element_1181"
+       filterUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="SourceGraphic"
+         id="feComponentTransfer16">
+        <feFuncA
+           type="table"
+           tableValues="1.0 0.0"
+           id="feFuncA16" />
+      </feComponentTransfer>
+    </filter>
+    <mask
+       id="__lottie_element_1157_2"
+       mask-type="alpha">
+      <g
+         filter="url(#__lottie_element_1181)"
+         id="g16">
+        <rect
+           width="600"
+           height="600"
+           x="0"
+           y="0"
+           fill="#ffffff"
+           opacity="0"
+           id="rect16" />
+        <use
+           xlink:href="#__lottie_element_1157"
+           id="use16" />
+      </g>
+    </mask>
+    <filter
+       id="__lottie_element_1182"
+       filterUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feComponentTransfer
+         in="SourceGraphic"
+         id="feComponentTransfer17">
+        <feFuncA
+           type="table"
+           tableValues="1.0 0.0"
+           id="feFuncA17" />
+      </feComponentTransfer>
+    </filter>
+    <mask
+       id="__lottie_element_1147_2"
+       mask-type="alpha">
+      <g
+         filter="url(#__lottie_element_1182)"
+         id="g17">
+        <rect
+           width="600"
+           height="600"
+           x="0"
+           y="0"
+           fill="#ffffff"
+           opacity="0"
+           id="rect17" />
+        <use
+           xlink:href="#__lottie_element_1147"
+           id="use17" />
+      </g>
+    </mask>
+  </defs>
+  <path
+     fill="rgb(88,101,242)"
+     fill-opacity="1"
+     d="m 6.5,2.5 c 0,0 12,0 12,0 2.209,0 4,1.7910004 4,4 0,0 0,7.5 0,7.5 0,0.276 -0.224,0.5 -0.5,0.5 0,0 -2.5,0 -2.5,0 -2.761,0 -5,2.239 -5,5 0,0 0,2.5 0,2.5 0,0.276 -0.224,0.5 -0.5,0.5 0,0 -7.5,0 -7.5,0 -2.2089996,0 -4,-1.791 -4,-4 0,0 0,-12 0,-12 0,-2.2089996 1.7910004,-4 4,-4 z m 15.659,14 c 0.033,0 0.055,0.034 0.041,0.064 -0.144999,0.299 -0.34,0.576 -0.578999,0.815 0,0 -4.242,4.242 -4.242,4.242 -0.239001,0.239 -0.516001,0.434 -0.815,0.579 -0.03,0.014 -0.064,-0.008 -0.064,-0.041 0,0 0,-0.487001 0,-0.487001 0,0 0,-2.172 0,-2.172 0,-1.657 1.343,-3 3,-3 0,0 2.172,0 2.172,0 z M 7,10.5 C 7.8280001,10.5 8.5,9.8280001 8.5,9 8.5,8.1719999 7.8280001,7.5 7,7.5 6.1719999,7.5 5.5,8.1719999 5.5,9 5.5,9.8280001 6.1719999,10.5 7,10.5 Z M 19.5,9 c 0,-0.8280001 -0.672,-1.5 -1.5,-1.5 -0.828,0 -1.5,0.6719999 -1.5,1.5 0,0.8280001 0.672,1.5 1.5,1.5 0.828,0 1.5,-0.6719999 1.5,-1.5 z M 9.589,11.944 C 9.2820001,11.485 8.6600001,11.362 8.2010002,11.669 7.7420001,11.976 7.6199999,12.597 7.927,13.056 8.9119999,14.527 10.592,15.5 12.5,15.5 c 1.908,0 3.588,-0.973 4.573,-2.444 0.307,-0.459 0.184,-1.08 -0.275,-1.387 -0.459,-0.307 -1.08,-0.184 -1.387,0.275 -0.63,0.941 -1.699,1.556 -2.911,1.556 -1.212,0 -2.281,-0.615 -2.911,-1.556 z"
+     id="path20"
+     style="display:block;fill:#2d2d2d;fill-opacity:1"
+     inkscape:label="path" />
+</svg>
