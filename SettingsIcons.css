@@ -174,7 +174,7 @@
         &::before {
             mask: unset !important;
             background-color: transparent !important;
-            background-image: url(oneko_button_line.svg) !important;
+            background-image: url(oneko.svg) !important;
             background-size: cover;
             animation: sleep 1s infinite;
         }
