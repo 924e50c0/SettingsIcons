@@ -1,3 +1,44 @@
+@keyframes sleep {
+
+    0%,
+    50% {
+        background-position: 0 0
+    }
+
+    50.00001%,
+    to {
+        background-position: 16.618% 0
+    }
+}
+
+@keyframes wakeup {
+
+    0%,
+    20% {
+        background-position: 33.236% 0
+    }
+
+    20.00001%,
+    40% {
+        background-position: 50.364% 0
+    }
+
+    40.00001%,
+    60% {
+        background-position: 66.472% 0
+    }
+
+    60.00001%,
+    80% {
+        background-position: 82.79% 0
+    }
+
+    80.00001%,
+    to {
+        background-position: 99.455% 0
+    }
+}
+
 [class*="item_b3f026"][class*="themed_b3f026"][role="tab"] {
     display: flex;
     align-items: center;
@@ -128,8 +169,19 @@
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hypesquad.svg") center/contain no-repeat !important;
     }
 
-    &[data-tab-id="VencordSettings"]::before {
-        mask: url() center/contain no-repeat !important;
+    &[data-tab-id="VencordSettings"] {
+
+        &::before {
+            mask: unset !important;
+            background-color: transparent !important;
+            background-image: url(oneko_button_line.svg) !important;
+            background-size: cover;
+            animation: sleep 1s infinite;
+        }
+
+        &:hover::before {
+            animation: 2.5s 1 forwards wakeup;
+        }
     }
 
     &[data-tab-id="VencordPlugins"]::before {
