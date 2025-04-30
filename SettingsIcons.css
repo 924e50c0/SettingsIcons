@@ -121,7 +121,7 @@
     }
 
     &[data-tab-id="merchandise"]::before {
-        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/shop.svg") center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/merch.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Hypesquad Online"]::before {
@@ -169,11 +169,11 @@
     }
 
     &[data-tab-id="Dismissible Content Options"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/dismiss.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Payment Flow Modals"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/money.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Revenue Storybook"]::before {
@@ -185,15 +185,15 @@
     }
 
     &[data-tab-id="Design System"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/design.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Text Playground"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/text_edit.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Text Component"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/text.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Intl Testing"]::before {
@@ -201,14 +201,14 @@
     }
 
     &[data-tab-id="Profile Effects Preview Tool"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/stars.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Nameplates Preview Tool"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/plate.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Web Setting Tree Tool"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/web.svg") center/contain no-repeat !important;
     }
 }
