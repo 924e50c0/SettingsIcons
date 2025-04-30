@@ -101,7 +101,7 @@
     }
 
     &[data-tab-id="Language"]::before {
-        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/translate.svg") center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/language.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Streamer Mode"]::before {
@@ -177,11 +177,11 @@
     }
 
     &[data-tab-id="Revenue Storybook"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/wallet.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Virtual Currency Configuration"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/currency.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Design System"]::before {
