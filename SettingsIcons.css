@@ -197,7 +197,7 @@
     }
 
     &[data-tab-id="Intl Testing"]::before {
-        mask: url() center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/intl.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Profile Effects Preview Tool"]::before {
