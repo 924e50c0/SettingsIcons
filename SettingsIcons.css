@@ -266,6 +266,10 @@
     }
 
     /* server options */
+    &[data-tab-id="OVERVIEW"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/info.svg") center/contain no-repeat !important;
+    }
+
     &[data-tab-id="PROFILE"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") center/contain no-repeat !important;
     }
@@ -302,6 +306,10 @@
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/letter.svg") center/contain no-repeat !important;
     }
 
+    &[data-tab-id="INSTANT_INVITES"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/letter.svg") center/contain no-repeat !important;
+    }
+
     &[data-tab-id="ACCESS"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/access.svg") center/contain no-repeat !important;
     }
@@ -328,6 +336,10 @@
 
     &[data-tab-id="GUILD_AUTOMOD"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/broom.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="PERMISSIONS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/permissions.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="COMMUNITY"]::before {
