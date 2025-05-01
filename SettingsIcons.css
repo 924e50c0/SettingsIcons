@@ -13,6 +13,7 @@
 
 @keyframes wakeup {
 
+
     0%,
     20% {
         background-position: 33.236% 0
@@ -25,17 +26,17 @@
 
     40.00001%,
     60% {
-        background-position: 66.472% 0
+        background-position: 66.47% 0
     }
 
     60.00001%,
     80% {
-        background-position: 82.79% 0
+        background-position: 82.8% 0
     }
 
     80.00001%,
     to {
-        background-position: 99.455% 0
+        background-position: 99.41% 0
     }
 }
 
