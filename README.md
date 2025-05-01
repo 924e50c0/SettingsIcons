@@ -3,6 +3,9 @@ Adds icons to settings for Vencord.
 
 You will need the [ThemeAttributes](https://github.com/Vendicated/Vencord/tree/main/src/plugins/themeAttributes) plugin for this theme to function.
 
+| ![vencord & payment settings](previews/vencord_payment_settings.png) | ![server settings](previews/server_settings.png) | ![app settings](previews/app_settings.png) | ![developer only settings](previews/developer_only_settings.png) |
+| -------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------ | ---------------------------------------------------------------- |
+| Vencord & payment settings                                           | Server settings                                  | App settings                               | Developer only settings                                          |
 ## Installation
 ### Local
 
