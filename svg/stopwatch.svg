@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="25"
+   height="25"
+   viewBox="0 0 25 25"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="stopwatch.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="32.555196"
+     inkscape:cx="10.520594"
+     inkscape:cy="13.715168"
+     inkscape:window-width="2560"
+     inkscape:window-height="1364"
+     inkscape:window-x="2551"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     fill="#2d2d2d"
+     fill-rule="evenodd"
+     d="m 12.5,22.875 a 9,9 0 1 0 0,-18 9,9 0 0 0 0,18 m 0,-13.75 a 0.75,0.75 0 0 1 0.75,0.75 v 4 a 0.75,0.75 0 0 1 -1.5,0 v -4 A 0.75,0.75 0 0 1 12.5,9.125 M 9.75,2.875 a 0.75,0.75 0 0 1 0.75,-0.75 h 4 a 0.75,0.75 0 0 1 0,1.5 h -4 A 0.75,0.75 0 0 1 9.75,2.875"
+     clip-rule="evenodd"
+     id="path1" />
+</svg>
