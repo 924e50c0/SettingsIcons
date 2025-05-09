@@ -146,6 +146,10 @@
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/language.svg") center/contain no-repeat !important;
     }
 
+    &[data-tab-id="Windows"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/windows.svg") center/contain no-repeat !important;
+    }
+
     &[data-tab-id="Streamer Mode"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/stream.svg") center/contain no-repeat !important;
     }
@@ -155,11 +159,23 @@
     }
 
     &[data-tab-id="Activity Privacy"]::before {
-        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/activity.svg") center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/incognito.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Game Activity"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/game.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Overlay"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/overlay.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="changelog"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/notebook.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="StartupTimings"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/stopwatch.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="merchandise"]::before {
