@@ -66,6 +66,14 @@
         }
     }
 
+    &[data-tab-id="USER_INFO"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/profile.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="ACTIVITY"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/game.svg") center/contain no-repeat !important;
+    }
+
     &[data-tab-id="My Account"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/account.svg") center/contain no-repeat !important;
     }
