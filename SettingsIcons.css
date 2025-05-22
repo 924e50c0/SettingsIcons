@@ -74,6 +74,14 @@
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/game.svg") center/contain no-repeat !important;
     }
 
+    &[data-tab-id="MUTUAL_FRIENDS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/members.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="MUTUAL_GUILDS"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/community.svg") center/contain no-repeat !important;
+    }
+
     &[data-tab-id="My Account"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/account.svg") center/contain no-repeat !important;
     }
