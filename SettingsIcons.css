@@ -40,13 +40,13 @@
     }
 }
 
-.rowContainer__2c32f {
+.rowContainer_a4b5f8 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: end;
 }
 
-[class*="item_b3f026"][class*="themed_b3f026"][role="tab"] {
+[class*="item_aa8da2"][class*="themed_aa8da2"][role="tab"] {
     display: flex;
     align-items: center;
     padding: 5px 8px;
