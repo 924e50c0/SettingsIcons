@@ -40,35 +40,41 @@
     }
 }
 
-.rowContainer_a4b5f8 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: end;
+
+.a4b5f88a32e452e2-rowContainer, .e681d139d22f277b-premiumLabel {
+    /* entry with right side icon (app directory) */
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
 }
 
-[class*="item_aa8da2"][class*="themed_aa8da2"][role="tab"] {
+[class*="aa8da23faa27393c-item"][class*="aa8da23faa27393c-themed"][role="tab"] {
+    /* entries */
     display: flex;
     align-items: center;
     padding: 5px 8px;
 
-    &:not(:has([class*="premiumLabel_e681d1"], [class*="tabBarItemContainer_c7e907"]))::before {
+    &:not(:is([class*="aa8da23faa27393c-destructive"], [class*="cbe0b48ace22cf15-serverBoostTabItem"]))::before {
+        /* default blank icon & exceptions */
         content: "";
-        width: var(--ssiSize);
-        height: var(--ssiSize);
-        margin-right: calc(var(--ssiSize) / 3);
+        width: var(--siSIZE);
+        min-width: var(--siSIZE);
+        height: var(--siSIZE);
+        margin-right: calc(var(--siSIZE) / var(--siGAPx));
         background: currentColor;
         mask: url();
     }
 
-    & :is([class*="premiumLabel_e681d1"],
-        [class*="tabBarItemContainer_c7e907"]) {
+    & :is([class*="c7e9071ee8df9113-tabBarItemContainer"]) {
+        /* exceptions replacement */
         flex-direction: row-reverse;
         align-items: center;
-        gap: calc(var(--ssiSize) / 3);
+        gap: calc(var(--siSIZE) / var(--siGAPx));
 
         & svg {
-            width: var(--ssiSize);
-            height: var(--ssiSize);
+            width: var(--siSIZE);
+            height: var(--siSIZE);
         }
     }
 
@@ -122,6 +128,10 @@
 
     &[data-tab-id="Settings Clips"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/clips.svg") center/contain no-repeat !important;
+    }
+
+    &[data-tab-id="Discord Nitro"]::before {
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/nitro.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="Nitro Server Boost"]::before {
@@ -208,7 +218,7 @@
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/hypesquad.svg") center/contain no-repeat !important;
     }
 
-    &.vc-settings[data-tab-id="settings/tabs"] {
+    &[data-tab-id="VencordSettings"] {
 
         &::before {
             mask: unset !important;
@@ -239,7 +249,7 @@
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/cloud.svg") center/contain no-repeat !important;
     }
 
-    &.vc-backup-restore[data-tab-id="settings/tabsSync"]::before {
+    &[data-tab-id="VencordBackupAndRestore"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/backup.svg") center/contain no-repeat !important;
     }
 
@@ -389,7 +399,7 @@
     }
 
     &[data-tab-id="ROLE_SUBSCRIPTIONS"]::before {
-        mask:  url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/subscriptions.svg") center/contain no-repeat !important;
+        mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/subscriptions.svg") center/contain no-repeat !important;
     }
 
     &[data-tab-id="GUILD_TEMPLATES"]::before {
@@ -399,5 +409,5 @@
 
 [data-tab-id="ALL"]::before,
 [data-tab-id="ADD_FRIEND"]::before {
-  display: none;
+    display: none;
 }
