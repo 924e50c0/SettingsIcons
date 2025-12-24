@@ -46,7 +46,9 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    align-items: end;
+    & svg {
+        justify-self: end;
+    }
 }
 
 [class*="aa8da23faa27393c-item"][class*="aa8da23faa27393c-themed"][role="tab"] {
@@ -132,6 +134,7 @@
 
     &[data-tab-id="Discord Nitro"]::before {
         mask: url("https://raw.githubusercontent.com/924e50c0/SettingsIcons/refs/heads/main/svg/nitro.svg") center/contain no-repeat !important;
+        z-index: 2;
     }
 
     &[data-tab-id="Nitro Server Boost"]::before {
